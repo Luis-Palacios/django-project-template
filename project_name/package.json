@@ -1,0 +1,31 @@
+{
+  "name": "your_project_name",
+  "version": "1.0.0",
+  "description": "your project description",
+  "scripts": {
+    "init": "npm install",
+    "install": "bower install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.6.4",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-csso": "^1.0.0",
+    "gulp-filter": "^2.0.2",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-inject": "^1.2.0",
+    "gulp-less": "^3.0.2",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-task-listing": "^1.0.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-useref": "^1.1.2",
+    "gulp-util": "^3.0.4",
+    "wiredep": "^2.2.2",
+    "yargs": "^3.7.2"
+  }
+}

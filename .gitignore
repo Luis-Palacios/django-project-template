@@ -1,0 +1,105 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+#python tools extension
+*.pyproj
+
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+#Virtual env
+env
+
+*.swp
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+local_settins.py
+
+#collected static 
+/static
+
+#media admin files
+media/
+
+#idea
+.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Visual Studio files
+*.exe
+web.config
+web.debug.config
+ptvs_virtualenv_proxy.py
+bin/
+*.user
+*.sln
+*.suo
+obj/
+
+#keys
+*.pub
+
+#NodeJs modules
+node_modules/
+
+#plugins migrations
+hamiltonsite/cmsplugins/projects_plugin/migrations
+hamiltonsite/cmsplugins/carousels_plugin/migrations
+hamiltonsite/cmsplugins/news_plugin/migrations
+hamiltonsite/cmsplugins/contents_plugin/migrations
+
+
+
