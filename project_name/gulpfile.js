@@ -99,7 +99,7 @@ gulp.task('restore-dev', function () {
         .pipe(gulp.dest(config.templates));
 });
 
-gulp.task('optimize', ['backup-dev', 'wiredep', 'inject'], function () {
+gulp.task('optimize', ['backup-dev', 'wiredep', 'inject','fonts','images'], function () {
     log('Optimazing the assets');
     var assets = $.useref.assets();
     var cssFilter = $.filter(config.relativePathToStaticFiles + '**/*.css');
