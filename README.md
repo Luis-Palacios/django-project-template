@@ -24,7 +24,9 @@ This template includes a nice layout, some directories already created for you, 
 * Lets begin by adding bootstrap to our project with **bower install --save bootstrap** (remember to always to this where your bower.json lives) bootstrap and it's dependencies should be in your static/lib directory but that's not all check out your base.html inside your template directory bootstrap and it's dependencies should be injected in your base.html
 
 ## TODO
-
+1. Complete documentation
+2. Add more flexibility to the gulp.config.file
+3. Fix orthography
 
 ## Want to help?
 
