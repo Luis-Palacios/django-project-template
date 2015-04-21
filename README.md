@@ -7,7 +7,7 @@ This template includes a nice layout, some directories already created for you, 
 
 ## Requirements
 
-1. Django >= 1.4
+1. Django >= 1.4 && Django < 1.8
 2. Node.js
 3. Bower
 
