@@ -18,7 +18,7 @@ This template includes a nice layout, some directories already created for you, 
 3. Create an empty directory for your project and enter **mkdir your_project_name** and **cd your_project_name**
 4. Start your project using this template **django-admin.py startproject --template https://github.com/LRPalacios/django-project-template/zipball/master your_project_name .** The "." is so that you wont get an extra directory level (You could also use the comand without the "." at the end but make sure to skip the step where you create an empty directory)
 5. *Optional* I recommend you first update your bower.json and package.json this is not necessary but it would be good for the documentation of your project.
-6. Get into the directory where the project.json and bower.json are and do a **npm install** this will install all the node modules that gulp tasks need.
+6. Get into the directory where the project.json and bower.json are and do a **npm install** this will install all the node modules that the gulp tasks need.
 
 ## What now?
 * Lets begin by adding bootstrap to our project with **bower install --save bootstrap** (remember to always to this where your bower.json lives) bootstrap and it's dependencies should be in your static/lib directory but that's not all check out your base.html inside your template directory bootstrap and it's dependencies should be injected in your base.html
