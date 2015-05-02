@@ -95,11 +95,8 @@ obj/
 #NodeJs modules
 node_modules/
 
-#plugins migrations
-hamiltonsite/cmsplugins/projects_plugin/migrations
-hamiltonsite/cmsplugins/carousels_plugin/migrations
-hamiltonsite/cmsplugins/news_plugin/migrations
-hamiltonsite/cmsplugins/contents_plugin/migrations
+#temp files
+.temp/
 
 
 
