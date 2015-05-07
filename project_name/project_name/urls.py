@@ -17,8 +17,10 @@ from django.conf.urls import include, url, patterns
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
+from apps.default import views
 
 urlpatterns = [
+    url(r'^$', views.index, name='home' ),
     url(r'^admin/', include(admin.site.urls)),
 ]
 
