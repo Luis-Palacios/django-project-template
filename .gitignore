@@ -97,6 +97,7 @@ node_modules/
 
 #temp files
 .temp/
+.backup/
 
 
 
