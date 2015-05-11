@@ -1,4 +1,4 @@
-﻿module.exports = function () {
+module.exports = function () {
     var client = './';
     var staticFiles = client + 'static/';
     var templates = client + 'templates/';
@@ -49,7 +49,8 @@
         *  copied to your build directory eg: font awesome
         */
         fonts: [
-             staticFiles + 'lib/fontawesome/fonts/**/*.*'
+             staticFiles + 'lib/fontawesome/fonts/**/*.*',
+             staticFiles + 'lib/bootstrap/fonts/**/*.*'
         ],
 
         /* This is where your compressed files will be 
