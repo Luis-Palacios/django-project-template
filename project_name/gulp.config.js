@@ -35,7 +35,7 @@ module.exports = function () {
         * compiled
         */
         less: [
-            staticFiles + 'less/**/*.less'
+            staticFiles + 'less/site.less'
         ],
 
         /* Include or exlude here all the css that you want to be 
