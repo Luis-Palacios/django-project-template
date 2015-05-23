@@ -1,5 +1,8 @@
 # django-project-template
 A django base project template including bower and gulp initial configurations
+## Author
+Luis Palacios  
+
 
 This template includes a nice layout, some directories already created for you, you get to use less by default, some great gulp tasks to help you compile your less files, inject your resulting css and javascript into your base.html, you get bower already setup for you and an initial configuration so that anytime you install a bower component (with --save) it will be automatically injected into your base.html, browserSync ready for you to use alongside your localserver, some automatic css injections(without reloading) when you edit any less file, automatic browser reload when you save any changes in html or js files and a great task to optimize all of your assets(uglify,csso and imagemin)
 
