@@ -38,8 +38,9 @@ Go ahead and do a normal python manage.py runserver open another console and do 
 ## TODO
 1. Complete documentation
 2. Add more flexibility to the gulp.config.file
-4. Find a way to use the optimized images in build/img instead of normal imgs
-3. Fix orthography
+3. Find a way to use the optimized images in build/img instead of normal imgs
+4. Fix orthography
+5. Add support for django 1.8
 
 ## Want to help?
 
