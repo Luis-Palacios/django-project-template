@@ -92,6 +92,10 @@ STATICFILES_DIRS = (
 )
 
 STATIC_URL = '/static/'
+IMAGES_URL = STATIC_URL
+if not DEBUG:
+    IMAGES_URL = STATIC_URL + 'build/'
+    
 STATIC_ROOT = os.path.join(ROOT_DIR, 'static')
 
 MEDIA_URL = '/media/'
