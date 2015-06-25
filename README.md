@@ -10,7 +10,7 @@ This template includes a nice layout, some directories already created for you, 
 
 ## Requirements
 
-1. Django >= 1.4 && Django < 1.8
+1. For Django >= 1.4 && Django < 1.8 use 1.0.0 for Django > 1.8 use 1.5.0
 2. Node.js
 3. Bower
 
