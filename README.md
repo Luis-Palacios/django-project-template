@@ -17,7 +17,7 @@ This template includes a nice layout, some directories already created for you, 
 ## Setup
 
 1. Create your virtualenv and activate it
-2. Install django via **pip install django**
+2. Install django via `pip install django`
 3. Create an empty directory for your project and enter **mkdir your_project_name** and **cd your_project_name**
 4. Start your project using this template  
 `django-admin startproject --template https://github.com/LRPalacios/django-project-template/zipball/master your_project_name .`  
