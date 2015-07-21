@@ -88,6 +88,7 @@ bin/
 *.sln
 *.suo
 obj/
+.vs/
 
 #keys
 *.pub
