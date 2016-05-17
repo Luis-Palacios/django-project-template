@@ -31,9 +31,11 @@ The "." is so that you wont get an extra directory level (You could also use the
 ## What now?
 ### Bower and Wiredep
 Lets begin by adding bootstrap to our project with **bower install --save bootstrap** (remember to always to this where your bower.json lives) bootstrap and it's dependencies should be in your static/lib directory but that's not all check out your base.html inside your template directory bootstrap and it's dependencies should be injected in your base.html
-`<link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/dist/css/bootstrap.css" />`  
-`<script src="{{ STATIC_URL }}lib/jquery/dist/jquery.js"></script>`  
-`<script src="{{ STATIC_URL }}lib/bootstrap/dist/js/bootstrap.js"></script>`  
+```html
+   <link rel="stylesheet" href="{{ STATIC_URL }}lib/bootstrap/dist/css/bootstrap.css" />
+   <script src="{{ STATIC_URL }}lib/jquery/dist/jquery.js"></script>  
+   <script src="{{ STATIC_URL }}lib/bootstrap/dist/js/bootstrap.js"></script>
+```  
 ### Less
 There is already a site.less in your static/less directory go ahead and add any rules that you want, once your are done do a **gulp inject** and take a look at your base.html  
 `<link rel="stylesheet" href="{{ STATIC_URL }}.temp/site.css">`
